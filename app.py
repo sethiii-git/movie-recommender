@@ -19,7 +19,7 @@ movies_dict = pickle.load(open("movie_dict.pkl", "rb"))
 movies = pd.DataFrame(movies_dict)
 
 
-TMDB_API_KEY = "8265bd1679663a7ea12ac168da84d2e8"
+TMDB_API_KEY = "b43e2fd6d6cb75e1ecc0957576d03f0a"
 
 def fetch_poster(movie_id):
     """Fetch movie poster URL from TMDb API."""
